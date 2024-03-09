@@ -76,7 +76,7 @@ class WriteAllocator(SimObject):
 
     block_size = Param.Int(Parent.cache_line_size, "block size in bytes")
 
-
+# 和cache相关的参数列表。
 class BaseCache(ClockedObject):
     type = "BaseCache"
     abstract = True
